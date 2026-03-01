@@ -17,7 +17,7 @@ export function useIntersection(options = {}) {
 
     if (ref.current) obs.observe(ref.current);
     return () => obs.disconnect();
-  }, []);
+  }, [options]);
 
   return [ref, visible];
 }
