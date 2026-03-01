@@ -204,7 +204,7 @@ body {
 }
 
 .hero__avatar-sub {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--color-text-light);
   margin-top: 4px;
 }
@@ -346,7 +346,7 @@ body {
 .pill {
   padding: 4px 14px;
   border-radius: var(--radius-full);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   display: inline-block;
 }
